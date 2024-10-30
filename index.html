@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Styles via Script</title>
+    <script>
+        // Get the HTML HEAD element
+        let head = document.getElementsByTagName('HEAD')[0];
+ 
+        // Create a LINK Element
+        let link = document.createElement('link');
+ 
+        // set the attributes for LINK element
+        link.rel = 'stylesheet';
+     
+        link.href = 'styles.css';
+ 
+        // Inject LINK element to HTML HEAD element
+        head.appendChild(link);
+    </script>
+</head>
+<body>
+     <h1 class="colorTest">I should be blue.</h1>
+ </body>
+</html>
