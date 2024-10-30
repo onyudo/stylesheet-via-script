@@ -11,5 +11,5 @@ You will notice that there isn't a link to a stylesheet in index.html, but when 
 ![screenshot of index.html with Dev Tools](images/dev-tools-inspect.jpg)
 
 I have to stress, It is much easier (and far more correct!) to link a Stylesheet via 
-<link rel="stylesheet" href="styles.css">, but this was a fun exercise to figure out and use JavaScript.
+`<link rel="stylesheet" href="styles.css">`, but this was a fun exercise to figure out and use JavaScript.
 
